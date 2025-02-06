@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', credentialsId: 'your-jenkins-credentials-id', url: 'https://github.com/YOUR_USERNAME/bright-puma.git'
+                git branch: 'main', credentialsId: 'your-jenkins-credentials-id', url: 'https://github.com/Princekumarmehta/bright-puma.git'
             }
         }
 
